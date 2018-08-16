@@ -156,6 +156,14 @@ $ git push -u origin master
 
 ```
 
+```shell
+#修改远程仓库地址
+    先删后加
+
+ git remote rm origin
+ git remote add origin [url]
+
+```
 ## 11、分支合并
 
 ```shell
